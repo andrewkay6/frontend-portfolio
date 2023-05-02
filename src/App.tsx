@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useRef, useState, useEffect } from 'react';
+import HomePage from './HomePage';
+import Header from './Header';
+import AboutPage from './AboutPage';
+import ResumePage from './ResumePage'; 
+import ProjectsPage from './ProjectsPage';
+import ContactPage from './ContactPage';
+
 
 function App() {
+  const [pageState, setPageState] = useState("");
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        pageState={pageState}
+        setPageState={setPageState}
+      />
+      <HomePage />
+      <AboutPage />
+      <ProjectsPage />
+      <ResumePage />
+      <ContactPage />
     </div>
   );
 }
