@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle";
 const ContactPage = () => {
     return (
         <div className="page contact-container">
-            <SectionTitle text="Contact" />
+            <SectionTitle children="Contact" />
         </div>
     );
 };

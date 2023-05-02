@@ -51,13 +51,14 @@ const Header = ({ pageState, setPageState }: Props) => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.15, duration: 0.5 }}
                 >
-                    <Link
+                    {/* <Link
                         to={link}
                         className="header-link"
                         onClick={() => setPageState(stateName)}
                     >
                         {text}
-                    </Link>
+                    </Link> */}
+                    <div className="header-link">{text}</div>
                 </motion.div>
             ))}
         </div>

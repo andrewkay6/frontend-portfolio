@@ -1,16 +1,15 @@
 import { motion } from "framer-motion";
-
 interface Props {
-    text : string;
+    children : string | JSX.Element | JSX.Element[];
 }
 
-const SectionTitle = ({text} : Props) => {
+const SectionTitle = ({children} : Props) => {
     return (
         <motion.div className="section-title"
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1}}>
-            {text}
+            {children}
         </motion.div>
     );
 };
