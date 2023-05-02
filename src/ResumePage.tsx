@@ -1,8 +1,11 @@
+import SectionTitle from "./SectionTitle";
 
 const ResumePage = () => {
     return (
-        <div className="resume-container">
-            <div className="resume-title">Resume</div>
+        <div className="resume-container page">
+            <SectionTitle
+                text="Resume"
+            />
         </div>
     );
 };

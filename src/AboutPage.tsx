@@ -1,8 +1,8 @@
-
+import SectionTitle from "./SectionTitle";
 const AboutPage = () => {
     return (
         <div className="page about-container">
-            <h1>Page 2</h1>
+            <SectionTitle text="About" />
         </div>
     );
 };

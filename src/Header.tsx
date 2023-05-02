@@ -19,11 +19,11 @@ const Header = ({ pageState, setPageState }: Props) => {
             text: "Home",
             link: "/"
         },
-        {
-            stateName: "about",
-            text: "About",
-            link: "/about"
-        },
+        // {
+        //     stateName: "about",
+        //     text: "About",
+        //     link: "/about"
+        // },
         {
             stateName: "projects",
             text: "Projects",

@@ -1,8 +1,9 @@
+import SectionTitle from "./SectionTitle";
 
 const ContactPage = () => {
     return (
         <div className="page contact-container">
-            <div className="contact-title">Contact</div>
+            <SectionTitle text="Contact" />
         </div>
     );
 };
