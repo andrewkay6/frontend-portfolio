@@ -7,7 +7,8 @@ const ResumeHeader = () => {
             <SectionTitle
                 children="Resume"
             />
-            <motion.div className='resume-download-button'
+            <motion.div className='resume-download-button raised-button'
+                title="Download Resume"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}>

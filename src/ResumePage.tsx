@@ -32,8 +32,8 @@ const ResumePage = () => {
                     <div className="resume-section-content-description">
                       {Array.isArray(item.description)
                         ? item.description.map((desc, index) => (
-                            <div key={index}>{desc}</div>
-                          ))
+                          <div key={index}>{desc}</div>
+                        ))
                         : <div>{item.description}</div>
                       }
                     </div>

@@ -17,7 +17,7 @@ function App() {
         setPageState={setPageState}
       />
       <HomePage />
-      {/* <AboutPage /> */}
+      <AboutPage />
       <ProjectsPage />
       <ResumePage />
       <ContactPage />
