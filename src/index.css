@@ -526,3 +526,6 @@ body {
   cursor: pointer;
   box-sizing: border-box;
 }
+.linkedin-SVG {
+  filter: invert(100%);
+}

@@ -16,7 +16,7 @@ const HomePage = () => {
                 transition={{ duration: 1 }}
 
             >
-                Software Developer
+                Interactive Resume & Portfolio
             </motion.div>
         </div>
     );

@@ -107,7 +107,7 @@ const projects: Project[] = [
             {
                 name: "Live Link",
                 url: "https://andrewkay6.github.io/grasshopper/",
-                icon: "/images/bmi-favicon.png"
+                icon: "/images/grasshopper-favicon.webp"
             },
             {
                 name: "Github",
