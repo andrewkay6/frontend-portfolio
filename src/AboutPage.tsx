@@ -9,11 +9,12 @@ const AboutPage = () => {
                 </div>
 
                 <div className="about-text">
-                    Hi, I'm Andrew! I'm a software developer with experience in web development and consulting. Business and software requirements aren't only about what's written on the page - it's important to anticipate the needs of the client and to be able to communicate effectively. I believe in writing modular, reusable code that is easy to read and maintain.
-                </div>
-                <br />
-                <div className="about-text">
-                    I have a passion for problem solving, and I'm able to adapt to new environments quickly. I have experience with Java, Python, and TypeScript, but I'm always open to learning new languages and frameworks.
+                    Hi, I'm Andrew! I'm a software developer with experience in web development and consulting. Business and software requirements
+                    aren't only about what's written on the page - it's important to anticipate the needs of the client and to get in front of potential risks.
+                    I believe in writing modular, reusable code that is easy to read and maintain.
+                    <br /> <br />
+                    I have a passion for problem solving, and I'm able to adapt to new environments quickly.
+                    I have experience with Java, Python, and TypeScript, but I'm always open to learning new languages and frameworks.
                 </div>
 
             </div>
