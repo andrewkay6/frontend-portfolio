@@ -36,10 +36,10 @@ const projects: Project[] = [
             },
         ],
         images: [
-            "/images/machining-solutions1.png",
-            "/images/machining-solutions2.png",
-            "/images/machining-solutions3.png",
-            "/images/machining-solutions4.png",
+            "images/machining-solutions1.png",
+            "images/machining-solutions2.png",
+            "images/machining-solutions3.png",
+            "images/machining-solutions4.png",
         ]
     },
     {
@@ -65,11 +65,11 @@ const projects: Project[] = [
             }
         ],
         images: [
-            "/images/chatstack1.png",
-            "/images/chatstack2.png",
-            "/images/chatstack3.png",
-            "/images/chatstack4.png",
-            "/images/chatstack5.png",
+            "images/chatstack1.png",
+            "images/chatstack2.png",
+            "images/chatstack3.png",
+            "images/chatstack4.png",
+            "images/chatstack5.png",
         ]
     },
     {
@@ -93,8 +93,8 @@ const projects: Project[] = [
             }
         ],
         images: [
-            "/images/bmi1.png",
-            "/images/bmi2.png"
+            "images/bmi1.png",
+            "images/bmi2.png"
         ]
     },
     {
@@ -116,10 +116,10 @@ const projects: Project[] = [
             }
         ],
         images: [
-            "/images/grasshopper1.png",
-            "/images/grasshopper2.png",
-            "/images/grasshopper3.png",
-            "/images/grasshopper4.png",
+            "images/grasshopper1.png",
+            "images/grasshopper2.png",
+            "images/grasshopper3.png",
+            "images/grasshopper4.png",
         ]
     }
 
