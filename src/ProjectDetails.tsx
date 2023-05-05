@@ -7,7 +7,11 @@ interface Props {
 const ProjectDetails = ({ currentProjectData }: Props) => {
     return (
         <div className="project-details-container">
-            <div style={{ textAlign: "center" }}>{currentProjectData.description}</div>
+            <div
+                className="project-description-container"
+                style={{ textAlign: "center" }}
+            >
+                {currentProjectData.description}</div>
             <div className="section-subtitle" style={{ fontWeight: "normal" }}>Links</div>
             <div className="project-links-container">
                 {currentProjectData.links.map((link, index) => (

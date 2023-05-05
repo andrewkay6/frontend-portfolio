@@ -46,7 +46,7 @@ const ProjectsPage = () => {
                     transition={{ duration: 0.1 }}
                     className="projects-content-container"
                 >
-                    <div className="section-subtitle">
+                    <div className="section-title">
                         {currentProjectData.name}
                     </div>
                    <ImagePreview

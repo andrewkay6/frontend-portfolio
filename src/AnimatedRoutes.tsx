@@ -6,11 +6,8 @@ import ProjectsPage from "./ProjectsPage";
 import ResumePage from "./ResumePage";
 import ContactPage from "./ContactPage";
 
-interface Props {
-    setPageState: (pageState: string) => void;
-}
 
-const AnimatedRoutes = (props: Props) => {
+const AnimatedRoutes = () => {
     const location = useLocation();
     return (
         <Routes location={location} key={location.pathname}>

@@ -8,7 +8,7 @@ const ResumePage = () => {
     if (item.summary) {
       if (Array.isArray(item.summary)) {
         return item.summary.map((summary, summaryIndex) => (
-          <div key={summaryIndex}>{summary}</div>
+          <li key={summaryIndex}>{summary}</li>
         ));
       } else {
         return (

@@ -38,7 +38,7 @@ const resumeData = [
                 "title": "Technical Consultant / Software Developer",
                 "subtitle": "CONTAX Inc.",
                 "description": [
-                    "May 2022 - Aug 2023",
+                    "May 2022 - Sep 2023",
                     "1 year, 4 months",
                 ],
                 "summary": [
