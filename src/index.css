@@ -89,9 +89,6 @@ body {
   /* background: rgb(28, 105, 247); */
 }
 
-.about-container {
-  /* background: rgb(211, 211, 136); */
-}
 .about-content{ 
   display: flex;
   flex-direction: column;
@@ -435,9 +432,6 @@ body {
 
     } 
 }
-.contact-container {
-  /* background: rgb(209, 125, 209); */
-}
 
 .header-container {
   display: flex;
@@ -471,10 +465,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.header-link-container { 
-  /* margin-right: 1%;
-  margin-left: 1%; */
-}
+
 
 .arrow path{
   fill: white;

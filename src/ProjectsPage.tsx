@@ -25,13 +25,15 @@ const ProjectsPage = () => {
     const currentProjectData: Project = projects[currentProject];
 
     return (
-        <div className="projects-container page">
-            {/* <SectionTitle>Projects</SectionTitle> */}
-            <motion.div
-                initial={{ opacity: 0 }}
+        <motion.div 
+        initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
+        className="projects-container page">
+            {/* <SectionTitle>Projects</SectionTitle> */}
+            <motion.div
+                
                 className="projects-main-container"
                 >
                 <div className="arrow-container">
@@ -63,7 +65,7 @@ const ProjectsPage = () => {
                     <ArrowIcon className="arrow arrow-right raised-button" onClick={handleRightArrowClick} />
                 </div>
             </motion.div>
-        </div>
+        </motion.div>
     );
 };
 

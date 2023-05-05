@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
+import { useState } from 'react';
 import HomePage from './HomePage';
 import Header from './Header';
 import AboutPage from './AboutPage';
@@ -32,11 +32,6 @@ function App() {
         pageState={pageState}
         setPageState={setPageState}
       />
-      {/* <HomePage />
-      <AboutPage />
-      <ProjectsPage />
-      <ResumePage />
-      <ContactPage /> */}
       {pageContents}
     </div>
   );
