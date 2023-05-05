@@ -484,8 +484,8 @@ body {
 }
 .arrow:hover{
   cursor: pointer;
-  transform: scale(1.1);
-  transition-duration: 0.1s;
+  transform: scale(1.4);
+  transition-duration: 0.2s;
 }
 
 .arrow-left{
@@ -494,8 +494,8 @@ body {
 }
 
 .arrow-left:hover {
-  transform: scale(1.1) rotate(180deg);
-  -webkit-transform: scale(1.1) rotate(180deg);
+  transform: scale(1.4) rotate(180deg);
+  -webkit-transform: scale(1.4) rotate(180deg);
 }
 
 .contact-content-container {

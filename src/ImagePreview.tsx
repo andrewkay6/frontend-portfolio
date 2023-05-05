@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Project } from "./ProjectsData";
-
+import motionProps from "./PageMotionProps";
 interface Props {
     currentProject: number;
     currentImage: number;
@@ -15,10 +15,7 @@ const ImagePreview = ({currentProject, currentImage, setCurrentImage, projects} 
     return ( 
         <div className="project-images-container">
         <motion.div
-            key={currentImage}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            {...motionProps}
             className="project-image-main">
             <img src={currentProjectData.images[currentImage]} alt={currentProjectData.name} />
         </motion.div>

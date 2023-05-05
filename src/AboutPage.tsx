@@ -1,13 +1,12 @@
 import SectionTitle from "./SectionTitle";
 import { motion } from "framer-motion";
+import motionProps from "./PageMotionProps";
 const AboutPage = () => {
     return (
-        <motion.div 
-        initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-        className="page about-container">
+        <motion.div
+            {...motionProps}
+            className="page about-container"
+            >
             <SectionTitle children="About Me" />
             <div className="about-content">
                 <div className="about-image-container" >

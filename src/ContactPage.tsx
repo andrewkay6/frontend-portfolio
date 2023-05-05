@@ -1,11 +1,10 @@
 import SectionTitle from "./SectionTitle";
 import { motion } from "framer-motion";
+import motionProps from "./PageMotionProps";
 const ContactPage = () => {
     return (
         <motion.div
-        initial={{opacity: 0}}
-        whileInView={{opacity: 1}}
-        transition={{duration: 1}} 
+        {...motionProps}
         className="page contact-container">
             <SectionTitle children="Contact" />
 

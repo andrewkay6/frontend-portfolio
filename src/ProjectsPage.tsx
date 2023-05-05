@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import SectionTitle from "./SectionTitle";
+
 import { ReactComponent as ArrowIcon } from "./images/arrow.svg";
 import projects, { Project } from "./ProjectsData";
-import { motion } from "framer-motion";
+import { m, motion } from "framer-motion";
 import ImagePreview from "./ImagePreview";
 import ProjectDetails from "./ProjectDetails";
-
+import motionProps from "./PageMotionProps";
 const ProjectsPage = () => {
     const [currentProject, setCurrentProject] = useState(0);
     const [currentImage, setCurrentImage] = useState(0);
@@ -25,38 +25,32 @@ const ProjectsPage = () => {
     const currentProjectData: Project = projects[currentProject];
 
     return (
-        <motion.div 
-        initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-        className="projects-container page">
-            {/* <SectionTitle>Projects</SectionTitle> */}
-            <motion.div
-                
+        <motion.div
+            {...motionProps}
+            className="projects-container page">
+
+            <div
                 className="projects-main-container"
-                >
+            >
                 <div className="arrow-container">
                     <ArrowIcon className="arrow arrow-left raised-button" onClick={handleLeftArrowClick} />
                 </div>
                 <motion.div
-                    // key={currentProject}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.1 }}
+                    key={currentProject}
+                    {...motionProps}
                     className="projects-content-container"
                 >
                     <div className="section-title">
                         {currentProjectData.name}
                     </div>
-                   <ImagePreview
+                    <ImagePreview
                         currentProject={currentProject}
                         currentImage={currentImage}
                         setCurrentImage={setCurrentImage}
                         projects={projects}
-                   />
+                    />
 
-                    <ProjectDetails 
+                    <ProjectDetails
                         currentProjectData={currentProjectData}
                     />
 
@@ -64,7 +58,7 @@ const ProjectsPage = () => {
                 <div className="arrow-container">
                     <ArrowIcon className="arrow arrow-right raised-button" onClick={handleRightArrowClick} />
                 </div>
-            </motion.div>
+            </div>
         </motion.div>
     );
 };

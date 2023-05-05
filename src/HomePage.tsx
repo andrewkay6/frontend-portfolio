@@ -1,24 +1,17 @@
 import { motion } from "framer-motion";
-
+import motionProps from "./PageMotionProps";
 const HomePage = () => {
     return (
-        <div className="page home-container">
-            <motion.div className="home-title"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-            >Andrew Kay
-            </motion.div>
-            <motion.div
-                className="home-subtitle"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-
-            >
+        <motion.div
+        {...motionProps}
+            className="page home-container">
+            <div className="home-title">
+                Andrew Kay
+            </div>
+            <div className="home-subtitle">
                 Interactive Resume & Portfolio
-            </motion.div>
-        </div>
+            </div>
+        </motion.div>
     );
 };
 
