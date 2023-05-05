@@ -2,7 +2,7 @@ import SectionTitle from "./SectionTitle";
 const AboutPage = () => {
     return (
         <div className="page about-container">
-            <SectionTitle children="About" />
+            <SectionTitle children="About Me" />
             <div className="about-content">
                 <div className="about-image-container" >
                     <img src="https://media.licdn.com/dms/image/C4D03AQGXtDEXjJ5pOQ/profile-displayphoto-shrink_800_800/0/1641962624883?e=1688601600&v=beta&t=IP-Jeb1Jp92h0FobaJ31xEbza97Rqkluy9hktQqmgv0" alt="Profile" />

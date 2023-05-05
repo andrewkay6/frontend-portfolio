@@ -26,7 +26,7 @@ const ProjectsPage = () => {
 
     return (
         <div className="projects-container page">
-            <SectionTitle>Projects</SectionTitle>
+            {/* <SectionTitle>Projects</SectionTitle> */}
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

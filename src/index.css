@@ -50,7 +50,7 @@ body {
 .page {
   margin: 0;
   min-height: 100vh;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   background-image: linear-gradient(
     to bottom,
   );
@@ -132,6 +132,7 @@ body {
   /* background: rgb(134, 211, 134); */
   display: flex; 
   flex-direction: column;
+  max-height: 100vh;
 }
 .projects-main-container {
   display: flex;
@@ -177,7 +178,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.resume-item-header{ 
+  display: flex;
+  flex-direction: row;
+}
 .resume-download-button {
   background: none;
   border: 2px solid white;
@@ -199,7 +203,10 @@ body {
 .resume-download-button:hover {
   background: white;
   color: rgb(115, 182, 119);
-
+}
+.resume-section-content-summary{
+  text-align: left;
+  width: 100%;
 }
 .resume-title-section {
   display: flex;
@@ -249,7 +256,7 @@ body {
 }
 .resume-section-item{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1%;
@@ -435,7 +442,7 @@ body {
 .header-container {
   display: flex;
   flex-direction: row;
-  height: 10vh;
+  /* height: 10vh; */
   /* background: transparent; */
   justify-content: flex-end;
   position: fixed;
@@ -452,18 +459,21 @@ body {
   color: white;
   font-size: 130%;
   padding: 4px;
-  border-radius: 10px;
   cursor: pointer;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.2);
+  transition-duration: 0.1s;
+}
+.active-header-link {
+  background: rgba(255, 255, 255, 0.2);
 }
 .header-link:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
 .header-link-container { 
-  margin-right: 1%;
-  margin-left: 1%;
+  /* margin-right: 1%;
+  margin-left: 1%; */
 }
 
 .arrow path{

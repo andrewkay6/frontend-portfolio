@@ -9,6 +9,22 @@ import ContactPage from './ContactPage';
 
 function App() {
   const [pageState, setPageState] = useState("");
+  
+  let pageContents; 
+
+  if (pageState === "home") {
+    pageContents = <HomePage />;
+  } else if (pageState === "about") {
+    pageContents = <AboutPage />;
+  } else if (pageState === "projects") {
+    pageContents = <ProjectsPage />;
+  } else if (pageState === "resume") {
+    pageContents = <ResumePage />;
+  } else if (pageState === "contact") {
+    pageContents = <ContactPage />;
+  } else {
+    pageContents = <HomePage />;
+  }
   return (
 
     <div className="App">
@@ -16,11 +32,12 @@ function App() {
         pageState={pageState}
         setPageState={setPageState}
       />
-      <HomePage />
+      {/* <HomePage />
       <AboutPage />
       <ProjectsPage />
       <ResumePage />
-      <ContactPage />
+      <ContactPage /> */}
+      {pageContents}
     </div>
   );
 }
