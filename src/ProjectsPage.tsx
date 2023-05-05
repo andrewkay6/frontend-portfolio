@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import { ReactComponent as ArrowIcon } from "./images/arrow.svg";
 import projects, { Project } from "./ProjectsData";
-import { m, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import ImagePreview from "./ImagePreview";
 import ProjectDetails from "./ProjectDetails";
 import motionProps from "./PageMotionProps";
