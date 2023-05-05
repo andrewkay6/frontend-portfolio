@@ -27,12 +27,12 @@ const projects: Project[] = [
             {
                 name: "Live Link",
                 url: "https://andrewkay6.github.io/machining-solutions/",
-                icon: "/images/machining-solutions-favicon.png"
+                icon: "images/machining-solutions-favicon.png"
             },
             {
                 name: "Frontend Github",
                 url: "https://github.com/andrewkay6/machining-solutions",
-                icon: "/images/github.svg"
+                icon: "images/github.svg"
             },
         ],
         images: [
@@ -56,12 +56,12 @@ const projects: Project[] = [
             {
                 name: "Frontend Github",
                 url: "https://github.com/andrewkay6/chatstack-frontend",
-                icon: "/images/github.svg"
+                icon: "images/github.svg"
             },
             {
                 name: "Backend Github",
                 url: "https://github.com/andrewkay6/chatstack-backend",
-                icon: "/images/github.svg"
+                icon: "images/github.svg"
             }
         ],
         images: [
@@ -84,12 +84,12 @@ const projects: Project[] = [
             {
                 name: "Live Link",
                 url: "http://pizzadog.top",
-                icon: "/images/bmi-favicon.png"
+                icon: "images/bmi-favicon.png"
             },
             {
                 name: "Github",
                 url: "https://github.com/andrewkay6/bmi_calculator",
-                icon: "/images/github.svg"
+                icon: "images/github.svg"
             }
         ],
         images: [
@@ -107,12 +107,12 @@ const projects: Project[] = [
             {
                 name: "Live Link",
                 url: "https://andrewkay6.github.io/grasshopper/",
-                icon: "/images/grasshopper-favicon.webp"
+                icon: "images/grasshopper-favicon.webp"
             },
             {
                 name: "Github",
                 url: "https://github.com/andrewkay6/grasshopper",
-                icon: "/images/github.svg"
+                icon: "images/github.svg"
             }
         ],
         images: [
