@@ -44,7 +44,7 @@ const projects: Project[] = [
         name: "Chat Stack",
         description: 
         `
-        Chat Stack is a proof of concept chat application that I made using React, Javascript, and Python/Flask. The database is a MariaDB/MySQL hosted on a Digital Ocean droplet.
+        Chat Stack is a proof of concept chat application that I made using React, Javascript, and Python/Flask. The database is a MariaDB/MySQL instance hosted on a Digital Ocean Droplet.
         I wanted to learn a full stack that would let me get from idea to proof of concept, quickly. The app communicates with the backend using a combination of RESTful API calls and web sockets.
         The app supports login authentication and is encrypted using bcrypt.
         `,
@@ -67,7 +67,32 @@ const projects: Project[] = [
             "/images/chatstack4.png",
             "/images/chatstack5.png",
         ]
+    },
+    {
+        name: "What's my BMI?",
+        description: 
+        `This was my first web project outside of work. I noticed that the most popular BMI websites looked outdated and were, in my opinion, missing some functionality.
+        I wanted to make a front-end web application and React seemed like the perfect choice. 
+        At this point, I had only otherwise done vanilla JavaScript with some jQuery.
+        The app dynamically performs unit conversions and calculates target weights based on BMI ranges.`,
+        links : [
+            {
+                name: "Live Link",
+                url: "http://pizzadog.top",
+                icon: "/images/bmi-favicon.png"
+            },
+            {
+                name: "Github",
+                url: "https://github.com/andrewkay6/bmi_calculator",
+                icon: "/images/github.svg"
+            }
+        ],
+        images: [
+            "/images/bmi1.png",
+            "/images/bmi2.png"
+        ]
     }
+
 
 
 ];
