@@ -1,4 +1,5 @@
 
+import process from "process";
 
 export interface Project {
     name: string;
@@ -15,7 +16,7 @@ export interface LinkObject {
 
 const projects: Project[] = [
     {
-        name: "Machining Solutions",
+        name: `Machining Solutions`,
         description:
             `
         Machining Solutions is a company that provides graphite machining in the Kitchener-Waterloo area. 
@@ -25,25 +26,25 @@ const projects: Project[] = [
         `,
         links: [
             {
-                name: "Live Link",
-                url: "https://andrewkay6.github.io/machining-solutions/",
-                icon: "images/machining-solutions-favicon.png"
+                name: `Live Link`,
+                url: `https://andrewkay6.github.io/machining-solutions/`,
+                icon: `${process.env.PUBLIC_URL}/images/machining-solutions-favicon.png`
             },
             {
-                name: "Frontend Github",
-                url: "https://github.com/andrewkay6/machining-solutions",
-                icon: "images/github.svg"
+                name: `Frontend Github`,
+                url: `https://github.com/andrewkay6/machining-solutions`,
+                icon: `${process.env.PUBLIC_URL}/images/github.svg`
             },
         ],
         images: [
-            "images/machining-solutions1.png",
-            "images/machining-solutions2.png",
-            "images/machining-solutions3.png",
-            "images/machining-solutions4.png",
+            `${process.env.PUBLIC_URL}/images/machining-solutions1.png`,
+            `${process.env.PUBLIC_URL}/images/machining-solutions2.png`,
+            `${process.env.PUBLIC_URL}/images/machining-solutions3.png`,
+            `${process.env.PUBLIC_URL}/images/machining-solutions4.png`,
         ]
     },
     {
-        name: "Chat Stack",
+        name: `Chat Stack`,
         description:
             `
         Chat Stack is a proof of concept chat application that I made using React, Javascript, and Python/Flask. 
@@ -54,26 +55,26 @@ const projects: Project[] = [
         `,
         links: [
             {
-                name: "Frontend Github",
-                url: "https://github.com/andrewkay6/chatstack-frontend",
-                icon: "images/github.svg"
+                name: `Frontend Github`,
+                url: `https://github.com/andrewkay6/chatstack-frontend`,
+                icon: `${process.env.PUBLIC_URL}/images/github.svg`
             },
             {
-                name: "Backend Github",
-                url: "https://github.com/andrewkay6/chatstack-backend",
-                icon: "images/github.svg"
+                name: `Backend Github`,
+                url: `https://github.com/andrewkay6/chatstack-backend`,
+                icon: `${process.env.PUBLIC_URL}/images/github.svg`
             }
         ],
         images: [
-            "images/chatstack1.png",
-            "images/chatstack2.png",
-            "images/chatstack3.png",
-            "images/chatstack4.png",
-            "images/chatstack5.png",
+            `${process.env.PUBLIC_URL}/images/chatstack1.png`,
+            `${process.env.PUBLIC_URL}/images/chatstack2.png`,
+            `${process.env.PUBLIC_URL}/images/chatstack3.png`,
+            `${process.env.PUBLIC_URL}/images/chatstack4.png`,
+            `${process.env.PUBLIC_URL}/images/chatstack5.png`,
         ]
     },
     {
-        name: "What's my BMI?",
+        name: `What's my BMI?`,
         description: `
         This was my first web project outside of work. 
         I noticed that the most popular BMI websites looked outdated and were, in my opinion, missing some functionality.
@@ -82,44 +83,44 @@ const projects: Project[] = [
         `,
         links: [
             {
-                name: "Live Link",
-                url: "http://pizzadog.top",
-                icon: "images/bmi-favicon.png"
+                name: `Live Link`,
+                url: `http://pizzadog.top`,
+                icon: `${process.env.PUBLIC_URL}/images/bmi-favicon.png`
             },
             {
-                name: "Github",
-                url: "https://github.com/andrewkay6/bmi_calculator",
-                icon: "images/github.svg"
+                name: `Github`,
+                url: `https://github.com/andrewkay6/bmi_calculator`,
+                icon: `${process.env.PUBLIC_URL}/images/github.svg`
             }
         ],
         images: [
-            "images/bmi1.png",
-            "images/bmi2.png"
+            `${process.env.PUBLIC_URL}/images/bmi1.png`,
+            `${process.env.PUBLIC_URL}/images/bmi2.png`
         ]
     },
     {
-        name: "The Grasshopper",
+        name: `The Grasshopper`,
         description: `
         'The Grasshopper' is a landscaping freelancer in the Hamilton area. He runs a small operation, but needed a simple website post alongside his Kijiji ads. 
         I told him I could make him a small React website to get him started. He didn't have many pictures of his work, but I think the website turned out well.
         `,
         links: [
             {
-                name: "Live Link",
-                url: "https://andrewkay6.github.io/grasshopper/",
-                icon: "images/grasshopper-favicon.webp"
+                name: `Live Link`,
+                url: `https://andrewkay6.github.io/grasshopper/`,
+                icon: `${process.env.PUBLIC_URL}/images/grasshopper-favicon.webp`
             },
             {
-                name: "Github",
-                url: "https://github.com/andrewkay6/grasshopper",
-                icon: "images/github.svg"
+                name: `Github`,
+                url: `https://github.com/andrewkay6/grasshopper`,
+                icon: `${process.env.PUBLIC_URL}/images/github.svg`
             }
         ],
         images: [
-            "images/grasshopper1.png",
-            "images/grasshopper2.png",
-            "images/grasshopper3.png",
-            "images/grasshopper4.png",
+            `${process.env.PUBLIC_URL}/images/grasshopper1.png`,
+            `${process.env.PUBLIC_URL}/images/grasshopper2.png`,
+            `${process.env.PUBLIC_URL}/images/grasshopper3.png`,
+            `${process.env.PUBLIC_URL}/images/grasshopper4.png`,
         ]
     }
 

@@ -22,13 +22,14 @@ const ProjectsPage = () => {
         setCurrentProject((currentProject - 1 + projects.length) % projects.length);
     };
 
+
+
     const currentProjectData: Project = projects[currentProject];
 
     return (
         <motion.div
             {...motionProps}
             className="projects-container page">
-
             <div
                 className="projects-main-container"
             >
@@ -59,6 +60,7 @@ const ProjectsPage = () => {
                     <ArrowIcon className="arrow arrow-right raised-button" onClick={handleRightArrowClick} />
                 </div>
             </div>
+
         </motion.div>
     );
 };

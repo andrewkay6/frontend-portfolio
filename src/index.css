@@ -8,6 +8,9 @@
 *::-webkit-scrollbar {
   width: 16px;
 }
+* {
+  outline: solid 1px red;
+}
 body {
   /* background-color: rgb(51, 64, 65); */
   /* background-image: linear-gradient(
@@ -49,19 +52,14 @@ body {
 
 .page {
   margin: 0;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* max-height: 100vh; */
   background-image: linear-gradient(
     to bottom,
   );
 }
 
-@media screen and (max-width: 600px) {
-  .page {
-    /* min-height: 130vh; */
-    max-height: 130vh;
-  }
-}
+
 
 .home-title {
   font-size: 500%;
@@ -139,6 +137,24 @@ body {
   justify-content: space-between;
   min-height: 80%;
   flex: 1;
+}
+.projects-main-image-preview-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-main-image-preview-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 .project-details-container {
   display: flex;
@@ -362,6 +378,28 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.projects-main-image-preview-exit-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin: 1%; */
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: none;
+	color: inherit;
+  border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 200%;
+  
+}
 .project-image-selector-container{
   display: flex;
   flex-direction: column;
@@ -428,11 +466,9 @@ body {
       padding: 2%;
       box-sizing: border-box;
       object-fit: contain;
-      /* width: auto; */
-
     }
     .project-image-selector:hover{
-      /* background: rgba(255, 255, 255, 0.2); */
+  
       height: 120%;
       width: auto;
 
