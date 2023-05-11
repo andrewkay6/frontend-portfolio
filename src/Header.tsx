@@ -44,22 +44,16 @@ const Header = ({ pageState, setPageState }: Props) => {
     return (
         <div className="header-container">
             {headerLinks.map(({ text, link, stateName }, index) => (
-                <motion.div
-                    className="header-link-container"
+                <motion.a
+                    href = {"#" + link}
+                    className={pageState === stateName ? "header-link active-header-link" : "header-link"}
                     key={stateName}
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.15, duration: 0.5 }}
                 >
-                    <Link
-                        to={link}
-                        className={ pageState === stateName ? "header-link active-header-link" : "header-link" }
-                        onClick={() => setPageState(stateName)}
-                    >
-                        {text}
-                    </Link>
-                    {/* <div className="header-link">{text}</div> */}
-                </motion.div>
+                    {text}
+                </motion.a>
             ))}
         </div>
     );

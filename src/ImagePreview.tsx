@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Project } from "./ProjectsData";
 import motionProps from "./PageMotionProps";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 interface Props {
     currentProject: number;
     currentImage: number;

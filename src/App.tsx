@@ -13,7 +13,10 @@ function App() {
         pageState={pageState}
         setPageState={setPageState}
       />
-      <AnimatedRoutes/>
+      <AnimatedRoutes
+        pageState={pageState}
+        setPageState={setPageState}
+      />
     </div>
   );
 }
