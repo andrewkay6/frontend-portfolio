@@ -1,5 +1,4 @@
-import { Route, Routes, useLocation, Navigate } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import HomePage from "./HomePage";
 import AboutPage from "./AboutPage";
@@ -12,9 +11,7 @@ interface Props {
     setPageState: (pageState: string) => void;
     pageState: string;
 }
-
 const AnimatedRoutes = ({ setPageState, pageState }: Props) => {
-    const navigate = useNavigate();
     const location = useLocation();
 
     useEffect(() => {
