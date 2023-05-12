@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
+import {ReactComponent as DownloadIcon} from './images/download.svg';
 const ResumeHeader = () => {
     return (
         <div className="resume-title-section">
@@ -13,7 +14,7 @@ const ResumeHeader = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}>
-                🡇
+                <DownloadIcon className="download-icon" />
             </motion.div>
         </div>
     );

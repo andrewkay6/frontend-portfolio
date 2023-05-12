@@ -118,6 +118,14 @@ body {
 .resume-section-content {
   font-size: calc( 12px + 0.5vh);
 }
+.download-icon{
+  height: 60%;
+  width: 60%;
+}
+.download-icon path {
+  fill: white;
+}
+
 .projects-container {
   display: flex; 
   flex-direction: column;
@@ -213,14 +221,21 @@ body {
   margin-top: 1%;
   margin-left: 1%;
   margin-right: 1%;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   transition: 0.2s;
 }
 .resume-download-button:hover {
   background: white;
-  color: rgb(115, 182, 119);
 }
+.resume-download-button:hover .download-icon path {
+  fill: rgb(115, 182, 119) !important;
+  height: 1000px;
+}
+
+
 .resume-section-content-summary{
   text-align: left;
   width: 100%;
@@ -539,6 +554,28 @@ body {
   border-radius: 10px;
   margin-top: auto;
   margin-bottom: auto;
+  max-height: 290px;
+}
+.contact-link{
+
+}
+.contact-text-item-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.contact-text-item-container{
+  object-fit: contain;
+  /* max-height: 10px; */
+
+}
+.contact-svg {
+  height: 24px;
+  width: 24px;
+  
+}
+.contact-svg path {
+  fill: white !important;
 }
 .contact-container {
   display: flex; 

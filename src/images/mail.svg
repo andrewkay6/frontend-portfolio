@@ -1,0 +1,77 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsCc="http://creativecommons.org/ns#"
+   xmlnsDc="http://purl.org/dc/elements/1.1/"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlnsS="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlnsSvg="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   x="0px"
+   y="0px"
+   width="32px"
+   height="32px"
+   viewBox="0 0 32 32"
+   enableBackground="new 0 0 32 32"
+   xmlSpace="preserve"
+   inkscapeVersion="0.48.4 r9939"
+   sodipodiDocname="mail.svg"
+   sketchType="http://www.bohemiancoding.com/sketch/ns"
+   xlinkHref="http://www.w3.org/1999/xlink">
+  <defs id="defs3044" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     showgrid="false"
+     zoom="7.375"
+     cx="16"
+     cy="16"
+     windowX="53"
+     windowY="24"
+     windowWidth="640"
+     windowHeight="480"
+     inkscapeCurrentLayer="svg2"
+     id="namedview3042"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0"
+     />
+  <metadata id="metadata3034">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>PICOL Icon</dc:title>
+        <dc:date>2009-03-15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Melih Bilgil</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Creative Commons BY-SA</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>PICOL - Pictorial Communication Language</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>http://blog.picol.org</dc:identifier>
+        <dc:source>http://blog.picol.org</dc:source>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>PICOL</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>GUI</rdf:li>
+            <rdf:li>vector</rdf:li>
+            <rdf:li>interface</rdf:li>
+          </rdf:Bag>
