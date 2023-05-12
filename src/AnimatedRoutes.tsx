@@ -15,17 +15,6 @@ const AnimatedRoutes = ({ setPageState, pageState }: Props) => {
     const location = useLocation();
 
     useEffect(() => {
-        const regex = /^http[s]?:\/\/[^\s]+\/#\/[a-z]+$/i;
-        const isHashUrl = regex.test(window.location.href);
-
-        if (!isHashUrl) {
-            setPageState("");
-            window.location.href = window.location.origin + '/#/';
-            
-        }
-    }, [setPageState]);
-
-    useEffect(() => {
         const stateFromPath = location.pathname.replace("/", "");
         setPageState(stateFromPath);
 

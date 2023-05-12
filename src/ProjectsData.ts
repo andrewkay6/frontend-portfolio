@@ -84,7 +84,7 @@ const projects: Project[] = [
         links: [
             {
                 name: `Live Link`,
-                url: `http://pizzadog.top`,
+                url: `https://andrewkay6.github.io/bmi_calculator/`,
                 icon: `${process.env.PUBLIC_URL}/images/bmi-favicon.png`
             },
             {
