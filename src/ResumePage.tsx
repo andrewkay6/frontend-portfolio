@@ -41,7 +41,7 @@ const ResumePage = () => {
                 <div className="resume-section-item" key={itemIndex}>
                   <div className="resume-item-header">
                     <div className="resume-section-image">
-                      <img src={item.image} alt={item.title} />
+                      <img loading="lazy"src={item.image} alt={item.title} />
                     </div>
                     <div className="resume-section-text-container">
                       <div className="resume-section-content-title">

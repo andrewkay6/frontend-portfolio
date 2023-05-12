@@ -15,7 +15,7 @@ interface HeaderLink {
 const Header = ({ pageState, setPageState }: Props) => {
     const headerLinks: HeaderLink[] = [
         {
-            stateName: "home",
+            stateName: "",
             text: "Home",
             link: "/"
         },
