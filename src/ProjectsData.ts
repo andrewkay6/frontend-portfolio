@@ -76,10 +76,8 @@ const projects: Project[] = [
     {
         name: `What's my BMI?`,
         description: `
-        This was my first web project outside of work. 
-        I noticed that the most popular BMI websites looked outdated and were, in my opinion, missing some functionality.
-        I wanted to make a front-end web application and React seemed like the perfect choice. 
-        The app dynamically performs unit conversions and calculates target weights based on BMI ranges.
+        This was my first React project. I noticed that existing BMI calculators looked outdated, and were missing a little functionality. Whenever I go on a diet, 
+        I'm curious about how much weight I need to lose to get to a certain BMI. That functionality, along with a modern design, was the focus.
         `,
         links: [
             {
