@@ -9,7 +9,7 @@ const ResumeHeader = () => {
                 children="Resume"
             />
             <motion.div className='resume-download-button raised-button'
-                onClick={() => window.open("https://docs.google.com/document/d/1n3XjwsjMTfAL_pYi8pvqhyVvtvn2IttqKfZyqDXaxSw/export/pdf", "_blank")}
+                onClick={() => window.open("https://docs.google.com/document/d/1n3XjwsjMTfAL_pYi8pvqhyVvtvn2IttqKfZyqDXaxSw/export?format=pdf", "_blank")}
                 title="Download Resume"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
